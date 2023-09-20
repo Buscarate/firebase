@@ -1,20 +1,21 @@
 import { useState } from "react";
 
-export default function Ola(props) {
+export default function Ola(props)
+{
+    const [nome, setNome] = useState(props.nome);
 
-  const [nome, setNome] = useState(props.nome);
+    function alterar()
+    {
+        setNome("Manezinho");
+    }
 
-  function alterar()
-  {
-     setNome("Manezinho");
-  }
-  
-  // jsx
-   return (
-     <div>
-       <h1>Olá {nome}!</h1>
+    // jsx
+    return (
+        <div>
+            <h1>Olá { nome }!</h1>
+            
+            <button onClick={ alterar }>Alterar nome</button>
+        </div>
+    )
+}
 
-       <button onClick={ alterar }>ALterar Nome</button>
-     </div>
-   )
-} 

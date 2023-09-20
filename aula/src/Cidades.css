@@ -1,9 +1,10 @@
-body{
-     padding: 10px;
+body {
+    padding: 10px;
 }
 
-.lista{
-     padding: 6px;
-     background-color: lightpink;
-     border: 1px solid black;
+.lista {
+    padding: 6px;
+    background-color: silver;
+    border: 1px solid black;
+    margin-top: 10px;
 }

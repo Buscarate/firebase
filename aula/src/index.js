@@ -12,23 +12,28 @@ import Links from './Links';
 import Pokedex from './Pokedex';
 import Ola from './Ola';
 import Cidades from './Cidades'
+import Tarefas from './Tarefas';
 
 const rotas = createBrowserRouter([
     {
-        path: "/",
-        element: <h1>Exemplos feitos em aula</h1>
+         path: "/",
+         element: <h1>Exemplos feitos em aula</h1>
     },
     {
-        path: "/pokedex",
-        element: <Pokedex />
+         path: "/pokedex",
+         element: <Pokedex />
     }, 
     {
-        path: "/ola",
-        element: <Ola />
+         path: "/ola",
+         element: <Ola />
     },
     {
-        path: "/cidades",
-        element: <Cidades />
+         path: "/cidades",
+         element: <Cidades />
+    }, 
+    {
+         path:  "/tarefas", 
+         element: <Tarefas />
     }
 ]);
 

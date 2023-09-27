@@ -8,8 +8,7 @@ export default function Links() {
             | <a href="/cidades">Cidades</a> 
             | <a href="/ola">Ola</a> 
             | <a href="/tarefas">Tarefas</a> 
-
-
+            | <a href="/login">Login</a> 
         </div>
         
     )
